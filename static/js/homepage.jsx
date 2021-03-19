@@ -1,10 +1,12 @@
 "use strict";
 
-function Homepage() {
+function Homepage(props) {
   return (
-    <div>
-      This component needs to be implemented.
-    </div>
+    <React.Fragment>
+      <h3>Welcome Friend!</h3>
+      <a href="/cards">Here are some cards</a>
+      <img src="/static/img/balloonicorn.jpg" /> 
+    </React.Fragment>
   );
 }
 
